@@ -7,7 +7,7 @@ workflows:
           - certificate_credentials # <-- (CERTIFICATE_PRIVATE_KEY)
         vars:
           XCODE_PROJECT: "Imperial Joker.xcodeproj"
-          XCODE_SCHEME: "project"
+          XCODE_SCHEME: "Imperial Joker"
           BUNDLE_ID: "com.imp.joklin"
           APP_STORE_APPLE_ID: 6746481453
         xcode: latest
